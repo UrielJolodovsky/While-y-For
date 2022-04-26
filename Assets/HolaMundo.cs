@@ -11,6 +11,17 @@ public class HolaMundo : MonoBehaviour
     void Start()
     {
 
+        
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+   public void Holamundo()
+    {
         if (num1 > num2)
         {
             int a = num1;
@@ -24,22 +35,5 @@ public class HolaMundo : MonoBehaviour
         {
             Debug.Log("Vuelva a escribir los números");
         }
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-   public void Holamundo()
-    {
-        int counter = 1;
-        while (counter <= 100)
-        {
-            Debug.Log(counter);
-            counter++;
-        }
-
     }
 }
